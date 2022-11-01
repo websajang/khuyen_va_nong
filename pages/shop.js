@@ -6,7 +6,7 @@ import { findAllProducts } from './api/products'
 import { initMongoose } from "../lib/mongoose"
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
-const shop = ({ products }) => {
+const Shop = ({ products }) => {
     const [search, setSearch] = useState('');
     const categoriesNames = [...new Set(products?.map(p => p.category))];
 
@@ -47,7 +47,7 @@ const shop = ({ products }) => {
     )
 }
 
-export default shop
+export default Shop
 
 export async function getServerSideProps() {
     await initMongoose();
