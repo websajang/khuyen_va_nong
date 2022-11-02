@@ -26,7 +26,7 @@ export default function Home() {
 
 
           {/** HEADER PICTURES **/}
-          <div className='lg:col-span-2 flex justify-center items-center'>
+          <div className='lg:col-span-2 hidden lg:flex justify-center items-center'>
             <div className='h-5/6 w-5/6 grid grid-flow-col grid-rows-2 grid-cols-4 gap-2' >
               <div class="row-start-1 col-start-3 col-span-2 row-span-2 overflow-hidden rounded-xl delay25">
                 <img className='object-cover min-w-full min-h-full' src=' /slider2.jpg' loading='eager' alt='khuyên' title='khuyên' />

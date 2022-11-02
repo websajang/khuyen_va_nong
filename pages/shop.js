@@ -91,6 +91,10 @@ const Shop = ({ products }) => {
             </section>
 
 
+            <h1 className='text-7xl text-center font-bold uppercase'>Cửa hàng</h1>
+
+
+
             <section className='my-10'>
                 <input value={search} onChange={e => setSearch(e.target.value)} type='text' placeholder='Search for products' className='bg-gray-100 w-full py-2 px-4 rounded-xl text-black' />
 
