@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
 import { useState } from 'react'
 import { motion, useAnimation } from 'framer-motion'
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -169,11 +168,6 @@ export default function Home() {
 
 
         </section>
-        <MessengerCustomerChat
-          pageId="700726986641002"
-          appId="654963272699796"
-          className='mb-24'
-        />
       </Layout >
     </>
   )
