@@ -16,17 +16,17 @@ const Shop = ({ products }) => {
     return (
         <Layout>
 
-            <header className='h-96 mb-5 rounded-xl flex place-content-center justify-center lg:grid lg:grid-cols-4 bg-black'>
+            <header className='lg:h-96 mb-5 rounded-xl grid justify-items-center lg:grid-cols-4 bg-black'>
 
                 {/** LOGO **/}
 
-                <div className='col-span-1 w-72 h-72 lg:w-96 lg:h-96'>
+                <div className='lg:col-span-1 w-72 h-72 lg:w-96 lg:h-96'>
                     <img className='relative right-2' src='/logo.png' loading='eager' alt='logo' title='logo' />
                 </div>
 
 
                 {/** HEADER PICTURES **/}
-                <div className='col-span-2 hidden lg:flex justify-center items-center'>
+                <div className='lg:col-span-2 flex justify-center items-center'>
                     <div className='h-5/6 w-5/6 grid grid-flow-col grid-rows-2 grid-cols-4 gap-2' >
                         <div class="row-start-1 col-start-3 col-span-2 row-span-2 overflow-hidden rounded-xl delay25">
                             <img className='object-cover min-w-full min-h-full' src=' /slider2.jpg' loading='eager' alt='khuyên' title='khuyên' />
@@ -41,7 +41,7 @@ const Shop = ({ products }) => {
                 </div>
 
                 {/** CONTACTS **/}
-                <div className='col-span-1 hidden lg:flex flex-col justify-end  '>
+                <div className='col-span-1 lg:flex flex-col justify-end  '>
                     <div className='grid grid-flow-col grid-rows-3 grid-cols-5 h-full py-5' >
 
 
@@ -70,12 +70,12 @@ const Shop = ({ products }) => {
                                 ghé thăm trang <br></br>
                                 của tôi</a></div>
 
-                        <div className='row-start-3 col-start-1 col-span-1 row-span-1' >
+                        <div className='mt-5 lg:mt-0 row-start-3 col-start-1 col-span-1 row-span-1' >
                             <div className='flex justify-center items-center' >
                                 <img className='' src='/zalo.png' loading='eager' alt='zalo' title='zalo' />
                             </div>
                         </div>
-                        <div className='text-white text-xl font-bold row-start-3 col-start-2 col-span-4 row-span-1'>
+                        <div className='mt-5 lg:mt-0 text-white text-xl font-bold row-start-3 col-start-2 col-span-4 row-span-1'>
                             SHIP TOÀN QUỐC MUA <br></br>
                             HÀNG INBOX Ạ HOẶC LH :<br></br>
                             0977533306 TRONG <span className='text-emerald-500 font bold' >ZALO</span></div>
@@ -101,9 +101,9 @@ const Shop = ({ products }) => {
                             {products.find(p => p.category === categoryName) && (
                                 <div>
                                     <h2 className='text-2xl py-5 capitalize font-bold'>{categoryName}</h2>
-                                    <div className='flex -mx-5 overflow-x-scroll snap-x scrollbar-hide'>
+                                    <div className='grid grid-cols-2 lg:grid-cols-6'>
                                         {products.filter(p => p.category === categoryName).map(productInfo => (
-                                            <div key={productInfo.name} className='px-5 snap-start'>
+                                            <div key={productInfo.name} className=''>
                                                 <Product  {...productInfo} />
                                             </div>
                                         ))}
@@ -133,3 +133,4 @@ export async function getServerSideProps() {
         },
     };
 }
+

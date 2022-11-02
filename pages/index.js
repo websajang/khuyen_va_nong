@@ -87,7 +87,7 @@ export default function Home() {
         {/** DISCOUNTS **/}
         <section className='hidden lg:block'>
           <div className='h-10 w-full my-10 flex justify-center items-center overflow-hidden border-t-2 border-b-2 border-white'>
-            <p className='font-bold text-lg advertisement'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 300.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
+            <p className='font-bold text-lg'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 300.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
           </div>
         </section>
 

@@ -88,25 +88,4 @@
             opacity: 1;
         }
     }
-
-    .advertisement {
-        animation-name: pass;
-        animation-duration: 50s;
-        animation-timing-function: linear;
-        animation-delay: 0s;
-        animation-direction: normal;
-        animation-iteration-count: infinite;
-        animation-fill-mode: none;
-        animation-play-state: running;
-    }
-
-    @keyframes pass {
-        0% {
-            transform: translateX(-110%);
-        }
-
-        100% {
-            transform: translateX(110%);
-        }
-    }
 }
