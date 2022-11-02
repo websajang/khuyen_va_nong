@@ -172,6 +172,7 @@ export default function Home() {
         <MessengerCustomerChat
           pageId="700726986641002"
           appId="654963272699796"
+          className='mb-24'
         />
       </Layout >
     </>
