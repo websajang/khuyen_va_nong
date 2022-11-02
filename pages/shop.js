@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { motion, useAnimation } from 'framer-motion'
 import { findAllProducts } from './api/products'
 import { initMongoose } from "../lib/mongoose"
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 const Shop = ({ products }) => {
     const [search, setSearch] = useState('');
@@ -118,6 +119,11 @@ const Shop = ({ products }) => {
                     </div>
                 </div>
             </section>
+            <MessengerCustomerChat
+                pageId="700726986641002"
+                appId="654963272699796"
+                className='mb-24'
+            />
         </Layout>
     )
 }
