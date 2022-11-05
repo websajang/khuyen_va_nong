@@ -1,12 +1,12 @@
-import Footer from "./Footer"
-
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import Header from "./Header";
 
 const Layout = ({ children }) => {
     return (
 
         <div className="">
             <div className="p-5">
+                <Header />
                 {children}
             </div>
             <MessengerCustomerChat
@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
                 appId="654963272699796"
                 className='mb-24'
             />
-            <Footer />
         </div>
     )
 }

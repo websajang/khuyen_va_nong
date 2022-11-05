@@ -86,7 +86,7 @@ export default function Home() {
         {/** DISCOUNTS **/}
         <section className='hidden lg:block'>
           <div className='h-10 w-full my-10 flex justify-center items-center overflow-hidden border-t-2 border-b-2 border-white'>
-            <p className='font-bold text-lg'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 300.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
+            <p className='font-bold text-lg'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 250.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
           </div>
         </section>
 
@@ -109,10 +109,11 @@ export default function Home() {
               </div>
             </div>
             <div className='mt-5 lg:mt-10 lg:col-span-2 lg:p-20'>
-              <h1 className='text-2xl lg:text-5xl font-bold uppercase mb-5'>Tất cả các sản phẩm của chúng tôi</h1>
+              <h1 className='text-2xl lg:text-5xl font-bold uppercase mb-5'>Nong tai</h1>
               <p className='text-xl mb-5'>
-                Xem tất cả các sản phẩm trong cửa hàng, chọn ngành hàng hoặc tìm kiếm bằng công cụ tìm kiếm,
-                khi biết mình thích thì liên hệ qua zalo, messenger hoặc facebook để mua nhé.</p>
+                Các sản phẩm nong mới cập nhật hàng ngày trên trang fanpage hoặc bạn có thể tham khảo giá sản phẩm ở đây. <br></br><br></br><br></br>
+                Để mua hàng bạn chỉ cần copy ảnh khuyên đã chọn inbox số lượng gửi thông tin qua fanpage Facebook mọi việc còn lại để chúng tôi lo.
+              </p>
               <div className='w-full lg:w-auto flex justify-center lg:block ' >
                 <button className='p-5 bg-emerald-500 rounded-lg flex flex-row' >Go to the shop
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -133,39 +134,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-        </section>
-
-        <section className='mt-10 lg:mt-20'>
-          <div className='grid lg:grid-cols-3'>
-            <div className='lg:col-span-1'>
-              <div className='relative overflow-hidden rounded-2xl'>
-                <Image
-                  src="/earringshow.jpg"
-                  objectFit="cover"
-                  alt="Picture of the author"
-                  width={500}
-                  height={500}
-                />
-              </div>
-            </div>
-
-            <div className='mt-5 lg:mt-0 lg:col-span-2 lg:p-20'>
-              <h1 className='text-2xl lg:text-5xl font-bold uppercase mb-5'>Tất cả các sản phẩm của chúng tôi</h1>
-              <p className='text-xl mb-5'>
-                Xem tất cả các sản phẩm trong cửa hàng, chọn ngành hàng hoặc tìm kiếm bằng công cụ tìm kiếm,
-                khi biết mình thích thì liên hệ qua zalo, messenger hoặc facebook để mua nhé.</p>
-              <div className='w-full lg:w-auto flex justify-center lg:block '>
-                <button className='p-5 bg-emerald-500 rounded-lg flex flex-row' >Go to the shop
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-
-
 
         </section>
       </Layout >

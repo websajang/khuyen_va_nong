@@ -26,7 +26,7 @@ const Shop = ({ products }) => {
 
 
                 {/** HEADER PICTURES **/}
-                <div className='lg:col-span-2 flex justify-center items-center'>
+                <div className='lg:col-span-2 hidden lg:flex justify-center items-center'>
                     <div className='h-5/6 w-5/6 grid grid-flow-col grid-rows-2 grid-cols-4 gap-2' >
                         <div class="row-start-1 col-start-3 col-span-2 row-span-2 overflow-hidden rounded-xl delay25">
                             <img className='object-cover min-w-full min-h-full' src=' /slider2.jpg' loading='eager' alt='khuyên' title='khuyên' />
@@ -66,9 +66,9 @@ const Shop = ({ products }) => {
 
                         <div className='text-white text-xl font-bold row-start-2 col-start-2 col-span-4 row-span-1 uppercase cursor-pointer'>
                             <a href='https://www.facebook.com/Ba%CC%81n-khuuy%C3%AAn-tai-khuy%C3%AAn-m%C4%83%CC%81t-nong-tai-phu%CC%A3-ki%C3%AA%CC%A3n-%C6%A1%CC%89-C%C3%A2%CC%89m-Pha%CC%89-Online-700726986641002' >
-                                Bấm vào đây để <span className='text-emerald-500 font bold' > facebook</span>  <br></br>
-                                ghé thăm trang <br></br>
-                                của tôi</a></div>
+                                Bấm vào đây để  <br></br>
+                                ghé thăm trang   <br></br>
+                                <span className='text-emerald-500 font bold' > facebook</span></a></div>
 
                         <div className='mt-5 lg:mt-0 row-start-3 col-start-1 col-span-1 row-span-1' >
                             <div className='flex justify-center items-center' >
@@ -86,7 +86,7 @@ const Shop = ({ products }) => {
             {/** DISCOUNTS **/}
             <section className='hidden lg:block'>
                 <div className='h-10 w-full my-10 flex justify-center items-center overflow-hidden border-t-2 border-b-2 border-white'>
-                    <p className='font-bold text-lg advertisement'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 300.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
+                    <p className='font-bold text-lg advertisement'>Chúng tôi có lời đề nghị tốt nhất. Nếu bạn mua trên 250.000 VND sẽ được giao hàng miễn phí. Trên 1 triệu đồng bạn sẽ được chiết khấu 10%.</p>
                 </div>
             </section>
 
