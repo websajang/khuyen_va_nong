@@ -2,6 +2,7 @@ import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Navbar from './Navbar';
 import Header from '../components/Header'
 import Discounts from './Discounts';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
     return (
@@ -13,6 +14,7 @@ const Layout = ({ children }) => {
                 <Discounts />
                 {children}
             </div>
+            <Footer />
             <MessengerCustomerChat
                 pageId="700726986641002"
                 appId="654963272699796"
