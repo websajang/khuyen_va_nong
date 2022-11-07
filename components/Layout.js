@@ -1,12 +1,16 @@
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import Header from "./Header";
+import Navbar from './Navbar';
+import Header from '../components/Header'
+import Discounts from './Discounts';
 
 const Layout = ({ children }) => {
     return (
 
         <div className="">
             <div className="p-5">
+                <Navbar />
                 <Header />
+                <Discounts />
                 {children}
             </div>
             <MessengerCustomerChat
