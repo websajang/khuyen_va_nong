@@ -86,8 +86,8 @@ const Header = () => {
                         </div>
                     </div>
                     <div className='mt-5 lg:mt-0 text-white text-md xl:text-xl font-bold row-start-3 col-start-2 col-span-4 row-span-1'>
-                        Ship toÀn quỐc mua <br></br>
-                        hÀng inbox Ạ hoẶc lh :<br></br>
+                        Ship toàn quốc mua <br></br>
+                        hàng inbox ạ hoặc lh :<br></br>
                         0977533306 trong <span className='text-emerald-500 font bold' >Zalo</span></div>
                 </div>
             </div>
